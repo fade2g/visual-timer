@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Visual Timer to combine Items to check with some hints on the remaining time. Ment as a helper tool for small kids. Based on angular2-seed.",
   "repository": {
-    "url": ""
+    "url": "https://github.com/fade2g/visual-timer.git"
   },
   "scripts": {
     "build.dev": "gulp build.dev --color",
