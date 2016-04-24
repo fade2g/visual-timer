@@ -5,4 +5,4 @@ import {Component} from 'angular2/core';
   templateUrl: 'app/Timers/components/intro.component.html',
   styleUrls: ['app/Timers/components/intro.component.css']
 })
-export class TimersIntroComponent{}
+export class TimersIntroComponent {}
