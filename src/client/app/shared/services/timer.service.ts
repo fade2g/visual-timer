@@ -20,6 +20,6 @@ export class TimerService implements ITimerService {
     //
   }
   public stopTimer() {
-    //
+    console.log('timer service stop has been called');
   }
 }

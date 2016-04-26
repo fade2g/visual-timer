@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import {TimerService, ITimerService} from '../../shared/services/timer.service';
+import {TimerService} from '../../shared/services/timer.service';
 
 @Component({
   selector: 'vt-timer',
@@ -19,6 +19,7 @@ export class TimersComponent {
   }
 
   public stop() {
+    console.log('Will stop the timer');
     this.timerService.stopTimer();
   }
 }
