@@ -6,8 +6,8 @@ import {NavbarComponent} from './navbar.component';
 import {NameListService} from '../shared/index';
 import {HomeComponent} from '../+home/index';
 import {AboutComponent} from '../+about/index';
-import {TimersIntroComponent} from '../Timers/index';
 import {ToolbarComponent} from '../toolbar/index';
+import {TimersComponent} from '../Timers/index';
 
 @Component({
   selector: 'sd-app',
@@ -30,7 +30,7 @@ import {ToolbarComponent} from '../toolbar/index';
   {
     path: 'overview',
     name: 'Overview',
-    component: TimersIntroComponent
+    component: TimersComponent
   }
 ])
 export class AppComponent {}
